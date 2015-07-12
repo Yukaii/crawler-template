@@ -7,7 +7,7 @@ class TemplateCrawler
 
   def initialize
     @query_url = ""
-    @ic = Iconv.new('utf-8//translit//IGNORE')
+    @ic = Iconv.new('utf-8//translit//IGNORE', 'big-5')
   end
 
   def courses
