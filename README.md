@@ -6,17 +6,19 @@
 
 * [關於](#關於)
 * [安裝 Ruby 環境](#安裝-ruby-環境)
-  * [Dependency](#dependency)
-  * [RVM](#rvm)
-  * [裝 Bundler](#裝-bundler)
-  * [設定 git](#設定-git)
+    * [Dependency](#dependency)
+    * [RVM](#rvm)
+    * [裝 Bundler](#裝-bundler)
+    * [設定 git](#設定-git)
 
 * [架構說明](#架構說明)
-  * [Gemfile](#gemfile)
-  * [template_crawler.rb](#template_crawlerrb)
+   * [Gemfile](#gemfile)
+   * [template_crawler.rb](#template_crawlerrb)
 
 * [其他](#其他)
-[Sublime](#sublime)
+    * [Sublime](#sublime)
+
+
 # 關於
 
 這是一份 Colorgy 的標準爬蟲結構說明。請在寫爬蟲的時候參考此範本，方便正規化。
@@ -73,6 +75,8 @@ git config --global user.email "YOUR@EMAIL.com"
 就做到這邊。
 
 # 架構說明
+可以先看[教學1](http://yukaihuang93.logdown.com/posts/243459/how-to-write-web-crawler-for-the-first-time-using-ruby)
+
 ```
 .
 ├── Gemfile
