@@ -93,6 +93,14 @@ cd crawler-template
 ```
 將此專案克隆回本機
 
+
+然後跑 Bundle 安裝套件
+
+```bash
+bundle
+```
+
+
 ![4](img/4.png)
 
 ## Gemfile
@@ -107,6 +115,7 @@ gem 'iconv'
 ruby 的套件管理，其中 `crawler_rocks` 是小弟弄的 RestClient wrapper，`pry` 是常用的除錯工具，`iconv`是編碼轉換。
 
 Gemfile 修改完跑 `bundle` 安裝 gem，產生 Gemfile.lock。
+
 ![5](img/5.png)
 
 ## template_crawler.rb
